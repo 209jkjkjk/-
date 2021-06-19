@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Context reloadable="true">
+    <Resource
+            name="jdbc/mysql"
+            auth="Container"
+            type="javax.sql.DataSource"
+            driverClassName="com.mysql.cj.jdbc.Driver"
+            url="jdbc:mysql://mysql.cangcz.fun:7501/web作业?serverTimezone=Asia/Shanghai"
+            username="root"
+            password=""
+            maxTotal="4"
+            maxIdle="2"
+            maxWaitMillis="5000"
+    />
+</Context>
