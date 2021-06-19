@@ -6,6 +6,6 @@
 # 第二题
 写基于DAO的MVC设计模式实现的添加客户信息功能，包括BaseDao.java、CustomerDao.java、addCustomer.jsp、AddCustomerServlet.java,使之能正常运行。要求dao类在com.dao包下，servlet类在com.controller包下，javabeans类在com.model包下，数据库访问采用数据源实现，然后增加查询、列出所有客户信息、修改和删除等功能。
 - 查询：输入客户姓名查询，支持模糊查询。
-- 列出所有可出信息：按客户号、姓名、Email、余额和操作，其中操作包括修改和删除链接； 
+- 列出所有可出信息：按客户号、姓名、~~Email~~（没有实现）、余额和操作，其中操作包括修改和删除链接； 
 - 修改：根据客户号修改该客户的信息； 
 - 删除：根据客户号删除该客户的信息；
